@@ -1,4 +1,7 @@
 
-body {background: black}
-p {color: white}
+body {background: black;}
+
+p {color: white;
+font-size: 2rem;
+}
 
