@@ -15,20 +15,17 @@ align-items: center;
 
     }
     .liens   {
+        
         position: relative;
-        top: -150px;
-        left: 50px;
-               width: 96% ; 
-               font-size: 2rem;
-       
-color: rgb(7, 7, 129); 
-
-    }
-
-    .github   {
-                                   width: 96% ; 
-                       font-size: 3rem;
-       color: rgb(51, 215, 29); 
+        top: -140px;
+        left: 60px;
+               width: 40% ; 
+               font-size: 1.6rem;
+       color: rgb(7, 7, 129); 
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content: space-between;
+       align-items: flex-start;
 
     }
 
@@ -36,6 +33,7 @@ color: rgb(7, 7, 129);
         width: 100% ; 
         
     }
+
     a{
         text-decoration: none;
         color: rgb(7, 7, 129); 
