@@ -11,9 +11,32 @@ align-items: center;
     .cv  {
         width: 96% ; 
         margin: auto;
+       
 
     }
+    .liens   {
+        position: relative;
+        top: -150px;
+        left: 50px;
+               width: 96% ; 
+               font-size: 2rem;
+       
+color: rgb(7, 7, 129); 
+
+    }
+
+    .github   {
+                                   width: 96% ; 
+                       font-size: 3rem;
+       color: rgb(51, 215, 29); 
+
+    }
+
     .cv img {
         width: 100% ; 
         
+    }
+    a{
+        text-decoration: none;
+        color: rgb(7, 7, 129); 
     }
