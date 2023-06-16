@@ -16,18 +16,28 @@ align-items: center;
     }
     .liens   {
         
-        position: relative;
-        top: -140px;
-        left: 60px;
-               width: 40% ; 
-               font-size: 1.6rem;
-       color: rgb(7, 7, 129); 
-       display: flex;
+        /*position: relative;
+        top: -50px;
+        left: 20px;*/
+               width: 50% ; 
+               font-size: 1.2rem;
+       color: rgb(13, 13, 229); 
+      display: flex;
        flex-flow: row nowrap;
        justify-content: space-between;
        align-items: flex-start;
 
     }
+
+.linkedin, .github {
+    width: 55%;
+    display: flex;
+       flex-flow: row ;
+       justify-content: center;
+      
+    
+}
+
 
     .cv img {
         width: 100% ; 
