@@ -9,8 +9,9 @@ align-items: center;
 
 
     .cv  {
-        width: 96% ; 
-        margin: auto;
+        height:99vh
+        width: 69vh ; 
+        /*margin: auto;*/
        
 
     }
