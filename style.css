@@ -37,16 +37,19 @@ a{
     
 }
 .bas {
-    flex-flow: column wrap-reverse;
+    flex-flow: column wrap;
+    justify-content: flex-start;
     width: 100%;
     background-color: rgb(221, 237, 142);
     
 }
 
-.gauche, .droite {
-    width: 48%;
-}
+
 
 .gras {
-   font-weight: bold;
+    font-weight: bold;
+}
+
+.bas p {
+    width: 45%;
 }
