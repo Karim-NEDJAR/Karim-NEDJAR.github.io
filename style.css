@@ -71,3 +71,7 @@ a{
 .gauche, .droite {
     width: 48%;
 }
+
+.gras {
+   font-weight: bold;
+}
