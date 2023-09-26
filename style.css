@@ -57,12 +57,14 @@ a{
     color: rgb(7, 7, 129); 
 }
 
-.haut, .bas {
+.haut {
     width: 100%;
+    background-color: rgb(172, 245, 221);
     
 }
 .bas {
     flex-flow: column wrap-reverse;
+    width: 100%;
     
 }
 
