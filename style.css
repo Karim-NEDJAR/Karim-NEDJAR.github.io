@@ -65,6 +65,7 @@ a{
 .bas {
     flex-flow: column wrap-reverse;
     width: 100%;
+    background-color: rgb(221, 237, 142);
     
 }
 
