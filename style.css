@@ -1,52 +1,71 @@
 
- body  {
+body  {
     width: 96% ; 
     margin: auto;
-flex-flow : column nowrap;
-justify-content: flex-start;
-align-items: center;
-    }
-
-
-    .cv  {
-        height:99vh
-        width: 69vh ; 
-        /*margin: auto;*/
-       
-
-    }
-    .liens   {
-        
-        /*position: relative;
-        top: -50px;
-        left: 20px;*/
-               width: 50% ; 
-               font-size: 1.2rem;
-       color: rgb(13, 13, 229); 
-      display: flex;
-       flex-flow: row nowrap;
-       justify-content: space-between;
-       align-items: flex-start;
-
-    }
-
-.linkedin, .github {
-    width: 55%;
-    display: flex;
-       flex-flow: row ;
-       justify-content: center;
-      
-    
+    flex-flow : column nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
-    .cv img {
-        height: 100 vh; 
-        width: auto ; 
-        
-    }
+.cv  {
+    box-sizing: border-box;
+    height:99vh;
+    width: 69vh ; 
+    display: flex;
+    flex-flow: column nowrap;
+    /*margin: auto;*/
+    
+    
+}
+.cv * {
+    box-sizing: inherit;
+}
+.liens   {
+        /*position: relative;
+    top: -50px;
+    left: 20px;*/
+    width: 50% ; 
+    font-size: 1.2rem;
+    color: rgb(13, 13, 229); 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
 
-    a{
-        text-decoration: none;
-        color: rgb(7, 7, 129); 
-    }
+.linkedin, .github {
+    width: 45%;
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    
+    
+}
+
+/*
+.cv img {
+    height: 100 vh; 
+    width: auto ; 
+    
+}
+*/
+
+a{
+    text-decoration: none;
+    color: rgb(7, 7, 129); 
+}
+
+.haut, .bas {
+    width: 100%;
+    
+}
+.bas {
+    flex-flow: column wrap-reverse;
+    
+}
+
+.gauche, .droite {
+    width: 48%;
+}
