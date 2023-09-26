@@ -22,7 +22,9 @@ body  {
     box-sizing: inherit;
 }
 
-
+.cv  p {
+    border: 1px solid grey; 
+}
 
 
 
@@ -33,14 +35,14 @@ a{
 
 .haut {
     width: 100%;
-    background-color: rgb(112, 239, 197);
+    /*  background-color: rgb(112, 239, 197);*/
     
 }
 .bas {
     flex-flow: column wrap;
     justify-content: flex-start;
     width: 100%;
-    background-color: rgb(221, 237, 142);
+    /*  background-color: rgb(221, 237, 142); */
     
 }
 
