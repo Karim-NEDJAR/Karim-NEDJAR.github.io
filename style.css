@@ -1,49 +1,64 @@
 
-body  {
-    width: 96% ; 
-    margin: auto;
-    flex-flow : column nowrap;
-    justify-content: flex-start;
-    align-items: center;
-}
 
 
 .cv  {
     box-sizing: border-box;
-    height:99vh;
-    width: 69vh ; 
+    margin: 10px auto ;
+    /* width: 94% ;  */
+    width: 650px ;
+    /* height: 2000px;  */
     display: flex;
-    flex-flow: column nowrap;
-    /*margin: auto;*/
-    
-    
+    flex-flow: column wrap ;
+    /* justify-content: flex-start; */
 }
 .cv * {
     box-sizing: inherit;
-}
+} 
 
-.cv  p {
-    border: 1px solid grey; 
+.titre {
+    border: 1px solid rgb(202, 16, 16); 
 }
 
 
 
 a{
     text-decoration: none;
-    color: rgb(7, 7, 129); 
+    color: rgb(25, 25, 240); 
 }
 
 .haut {
     width: 100%;
-    /*  background-color: rgb(112, 239, 197);*/
-    
+    /* background-color: rgb(246, 241, 144); */
+    border:1px solid brown ;
+    /* height:150px; */
+    /* padding : 10px; */
 }
 .bas {
-    flex-flow: column wrap;
-    justify-content: flex-start;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    /* align-items: flex-start; */
     width: 100%;
-    /*  background-color: rgb(221, 237, 142); */
+    /* height: 1100px; */
+    /* background-color: rgb(118, 98, 167); */
+    border:1px solid green ;
     
+    
+}
+
+.gauche {
+    width: 40%;
+    /* height: 1050px; */
+    margin: 5px;
+    /*  background-color: rgb(246, 168, 249); */
+    border:1px solid red;
+    
+}
+.droite {
+    width: 40%;
+    /* height: 1050px; */
+    margin: 5px;
+    /* background-color: rgb(112, 239, 197);*/
+    border:1px solid blue ;
 }
 
 
@@ -52,6 +67,31 @@ a{
     font-weight: bold;
 }
 
-.bas p {
-    width: 45%;
+/* .gauche p, .droite p {
+    width: 99%;   
+} */
+.presentation {
+    text-align: center;
 }
+
+.conteneur {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.left  {
+    
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(162, 15, 15);
+}
+.right  {
+    
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(42, 15, 199);
+}
+
