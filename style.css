@@ -45,19 +45,18 @@ a{
 }
 
 .gauche {
-    width: 48%;
+    width: 50%;
+    padding:10px;
     /* height: 1050px; */
-    margin: 5px;
-    /*  background-color: rgb(246, 168, 249); */
-    border:1px solid red;
+      
+       background: linear-gradient(to bottom right, rgba(255, 218, 101, 0.5), rgba(140, 252, 249, 0.5));
     
 }
 .droite {
-    width: 48%;
+    width: 50%;
+    padding:10px;
     /* height: 1050px; */
-    margin: 5px;
-    /* background-color: rgb(112, 239, 197);*/
-    border:1px solid blue ;
+        background: linear-gradient(to bottom right, rgba(240, 175, 255, 0.16), rgba(172, 248, 154, 0.16));
 }
 
 
