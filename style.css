@@ -4,8 +4,8 @@
 .cv  {
     box-sizing: border-box;
     margin: 10px auto ;
-    width: 650px ;
-    /* height: 2000px;  */
+    width: 60 vh;
+    /* height: 120 vh;  */
     display: flex;
     flex-flow: column nowrap ;
     /* justify-content: flex-start; */
@@ -16,14 +16,32 @@
 
 .titre {
     /* border: 1px solid rgb(202, 16, 16);  */
+    text-transform: uppercase;
+
+}
+.cadre {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid grey;
+    color: white;
+    background-color: black;
+}
+.big-inter {
+    letter-spacing: 6px;
 }
 
 
 
 a{
     text-decoration: none;
-    color: rgb(25, 25, 240); 
-}
+    /* color: rgb(25, 25, 240);  */
+    font-weight: bold;
+    color:black;
+   }
+   .long-link {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+   }
 
 .haut {
     width: 100%;
@@ -34,7 +52,7 @@ a{
 .bas {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
     /* height: 1100px; */
     /* background-color: rgb(118, 98, 167); */
@@ -55,7 +73,7 @@ a{
     width: 50%;
     padding:10px;
     /* height: 1050px; */
-        background: linear-gradient(to bottom right, rgba(240, 175, 255, 0.16), rgba(172, 248, 154, 0.16));
+        background: linear-gradient(to bottom right, rgba(240, 175, 255, 0.6), rgba(172, 248, 154, 0.6));
 }
 
 
