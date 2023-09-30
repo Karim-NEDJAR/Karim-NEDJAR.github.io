@@ -1,5 +1,8 @@
 
-
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.7vh ;
+}
 
 .cv  {
     box-sizing: border-box;
@@ -17,7 +20,7 @@
 .titre {
     /* border: 1px solid rgb(202, 16, 16);  */
     text-transform: uppercase;
-
+    
 }
 .cadre {
     border-bottom: 1px solid gray;
@@ -26,7 +29,7 @@
     background-color: black;
 }
 .big-inter {
-    letter-spacing: 6px;
+    letter-spacing: 5px;
 }
 
 
@@ -36,17 +39,17 @@ a{
     /* color: rgb(25, 25, 240);  */
     font-weight: bold;
     color:black;
-   }
-   .long-link {
+}
+.long-link {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-   }
+}
 
 .haut {
     width: 100%;
     /* background-color: rgb(246, 241, 144); */
-       /* height:150px; */
+    /* height:150px; */
     /* padding : 10px; */
 }
 .bas {
@@ -65,15 +68,15 @@ a{
     width: 50%;
     padding:10px;
     /* height: 1050px; */
-      
-       background: linear-gradient(to bottom right, rgba(255, 218, 101, 0.5), rgba(140, 252, 249, 0.5));
+    
+    background: linear-gradient(to bottom right, rgba(255, 218, 101, 0.5), rgba(140, 252, 249, 0.5));
     
 }
 .droite {
     width: 50%;
     padding:10px;
     /* height: 1050px; */
-        background: linear-gradient(to bottom right, rgba(240, 175, 255, 0.6), rgba(172, 248, 154, 0.6));
+    background: linear-gradient(to bottom right, rgba(240, 175, 255, 0.6), rgba(172, 248, 154, 0.6));
 }
 
 
@@ -88,4 +91,3 @@ a{
 .presentation {
     text-align: center;
 }
-
