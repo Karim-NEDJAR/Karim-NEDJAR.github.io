@@ -25,8 +25,9 @@ body {
 .cadre {
     border-bottom: 1px solid gray;
     border-top: 1px solid grey;
-    color: white;
+    color: rgba(239, 227, 95, 0.764);
     background-color: black;
+    font-weight: 200;
 }
 .big-inter {
     letter-spacing: 5px;
@@ -93,6 +94,20 @@ a{
 }
 
 .vignette {
-    width: 30px;
-    height: 30px;
-    }
+    width: 25px;
+    height: 25px;
+}
+
+ul >  li {
+    list-style-type: none  ;
+}
+
+.liste-competences >  li  {
+    
+    list-style-image: linear-gradient(rgb(184, 18, 226) , rgb(184, 18, 226));
+}
+
+.finger {
+    /* background-color: rgb(181, 242, 186); */
+    /* border : solid rgb(142, 142, 146) 1px; */
+}
