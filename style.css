@@ -88,6 +88,11 @@ a{
 /* .gauche p, .droite p {
     width: 99%;   
 } */
-.presentation {
+.centrer  {
     text-align: center;
 }
+
+.vignette {
+    width: 30px;
+    height: 30px;
+    }
